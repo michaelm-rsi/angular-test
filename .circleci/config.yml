@@ -27,7 +27,7 @@ jobs:
           - v1-dependencies-
 
       - run: yarn global add @angular/cli
-      - run: ng set --global packageManager=yarn
+      - run: sudo ng set --global packageManager=yarn
       - run: yarn install
 
       - save_cache:
