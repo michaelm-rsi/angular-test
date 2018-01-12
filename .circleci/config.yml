@@ -29,6 +29,7 @@ jobs:
       - run: sudo yarn global add @angular/cli
       - run: sudo ng set --global packageManager=yarn
       - run: yarn install
+      - run: ng build
 
       - save_cache:
           paths:
